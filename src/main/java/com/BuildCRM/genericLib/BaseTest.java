@@ -11,6 +11,10 @@ public class BaseTest implements IAutoConstants{
 
 	public static WebDriver driver;
 	
+	/**
+	 * This generic reusable method is used to open browser and enter URL
+	 * @throws Throwable
+	 */
 	@BeforeClass
 	public void openBrowser() throws Throwable
 	{
